@@ -12,6 +12,7 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 
 /**
@@ -19,6 +20,7 @@ import butterknife.ButterKnife;
  */
 public class MainActivityFragment extends Fragment {
 
+    private Unbinder mUnBinder;
 
     public MainActivityFragment() {
     }
@@ -27,7 +29,7 @@ public class MainActivityFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
-
+        mUnBinder = ButterKnife.bind(this, root);
         AdView mAdView = (AdView) root.findViewById(R.id.adView);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
@@ -37,8 +39,12 @@ public class MainActivityFragment extends Fragment {
                 .build();
         mAdView.loadAd(adRequest);
         Button button = ButterKnife.findById(root, R.id.button_show_joke);
-
         return root;
     }
 
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mUnBinder.unbind();
+    }
 }
