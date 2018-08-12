@@ -12,7 +12,6 @@
             <option value="$PROJECT_DIR$/androidjokeslibrary" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/backend" />
-            <option value="$PROJECT_DIR$/free" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
