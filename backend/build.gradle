@@ -25,8 +25,8 @@ sourceCompatibility = JavaVersion.VERSION_1_8
 targetCompatibility = JavaVersion.VERSION_1_8
 
 dependencies {
-    compile 'com.google.appengine:appengine-endpoints:1.9.28'
-    compile 'com.google.appengine:appengine-endpoints-deps:1.9.28'
+    implementation 'com.google.appengine:appengine-endpoints:1.9.28'
+    implementation 'com.google.appengine:appengine-endpoints-deps:1.9.28'
     implementation 'com.google.endpoints:endpoints-framework:2.0.9'
     implementation 'javax.inject:javax.inject:1'
 
