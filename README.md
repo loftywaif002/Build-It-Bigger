@@ -1,6 +1,6 @@
 ## ScreenShot
 
-<img src="./screen-shot.png">
+<img width="200px" height="500px" src="./screen-shot.png">
 
 # Gradle for Android and Java Final Project
 
