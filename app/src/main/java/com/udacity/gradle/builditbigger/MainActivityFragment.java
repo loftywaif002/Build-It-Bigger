@@ -31,7 +31,7 @@ public class MainActivityFragment extends Fragment {
                              Bundle savedInstanceState) {
         View root = inflater.inflate(R.layout.fragment_main, container, false);
         mUnBinder = ButterKnife.bind(this, root);
-        AdView mAdView = (AdView) root.findViewById(R.id.adView);
+        AdView mAdView = (AdView) root.findViewById(R.id.ad_view);
         // Create an ad request. Check logcat output for the hashed device ID to
         // get test ads on a physical device. e.g.
         // "Use AdRequest.Builder.addTestDevice("ABCDEF012345") to get test ads on this device."

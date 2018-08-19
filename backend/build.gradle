@@ -38,7 +38,7 @@ dependencies {
 
 
 appengine {  // App Engine tasks configuration
-
+    appengine.tools.cloudSdkHome="/Users/Dipro/google-cloud-sdk"
     deploy {   // deploy configuration
         // The following is used for acceptance tests and
         // is not required for a migration.

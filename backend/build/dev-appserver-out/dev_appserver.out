@@ -1,8 +1,66 @@
 Warning: Google App Engine Java 7 runtime is deprecated.
 Warning: See https://cloud.google.com/appengine/docs/deprecations/java7
-Aug 12, 2018 2:52:08 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
-INFO: Overwriting system property key 'java.util.logging.config.file', value '/usr/lib/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/home/dipro/Desktop/Udacity-Nanodegree/Build-It-Bigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Aug 19, 2018 12:42:39 AM com.google.appengine.tools.development.SystemPropertiesManager setSystemProperties
+INFO: Overwriting system property key 'java.util.logging.config.file', value '/Users/Dipro/google-cloud-sdk/platform/google_appengine/google/appengine/tools/java/config/sdk/logging.properties' with value 'WEB-INF/logging.properties' from '/Users/Dipro/Desktop/Udacity-Android/Build-It-Bigger/backend/build/exploded-backend/WEB-INF/appengine-web.xml'
+Aug 19, 2018 12:42:39 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Logging to JettyLogger(null) via com.google.apphosting.utils.jetty.JettyLogger
+Aug 19, 2018 7:42:39 AM com.google.appengine.tools.development.IsolatedAppClassLoader checkWorkingDirectory
+WARNING: Your working directory, (/Users/Dipro/Desktop/Udacity-Android/Build-It-Bigger/backend) is not equal to your 
+web application root (/Users/Dipro/Desktop/Udacity-Android/Build-It-Bigger/backend/build/exploded-backend)
+You will not be able to access files from your working directory on the production server.
 
-************************************************
-Could not open the requested socket: Address already in use
-Try overriding --address and/or --port.
+Aug 19, 2018 7:42:39 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: jetty-6.1.x
+Aug 19, 2018 7:42:40 AM com.google.apphosting.utils.jetty.JettyLogger info
+INFO: Started SelectChannelConnector@localhost:8080
+Aug 19, 2018 7:42:40 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: Module instance default is running at http://localhost:8080/
+Aug 19, 2018 7:42:40 AM com.google.appengine.tools.development.AbstractModule startup
+INFO: The admin console is running at http://localhost:8080/_ah/admin
+Aug 19, 2018 12:42:40 AM com.google.appengine.tools.development.DevAppServerImpl doStart
+INFO: Dev App Server is now running
+Aug 19, 2018 12:42:48 AM com.google.appengine.api.datastore.dev.LocalDatastoreService init
+INFO: Local Datastore initialized: 
+	Type: High Replication
+	Storage: /Users/Dipro/Desktop/Udacity-Android/Build-It-Bigger/backend/build/exploded-backend/WEB-INF/appengine-generated/local_db.bin
+Aug 19, 2018 12:42:48 AM com.google.appengine.api.datastore.dev.LocalDatastoreService load
+INFO: The backing store, /Users/Dipro/Desktop/Udacity-Android/Build-It-Bigger/backend/build/exploded-backend/WEB-INF/appengine-generated/local_db.bin, does not exist. It will be created.
+Aug 19, 2018 12:43:12 AM com.google.appengine.tools.development.LocalResourceFileServlet doGet
+WARNING: No file found for: /_ah/myapi/api
+Aug 19, 2018 12:43:27 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeByteBufferOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+Aug 19, 2018 12:43:27 AM com.google.appengine.repackaged.com.google.protobuf.UnsafeUtil supportsUnsafeArrayOperations
+WARNING: platform method missing - proto runtime falling back to safer methods: java.security.AccessControlException: access denied ("java.lang.RuntimePermission" "accessClassInPackage.sun.misc")
+What would bears be without bees? Ears.
+Moses had the first tablet that could connect to the cloud
+How do construction workers party? They raise the roof.
+What do you call bees that are fat? Obeese.
+A doctor tells a woman she can no longer touch anything alcoholic. So she gets a divorce.
+A lawyer-turned-cook is a sue chef
+Where there's a will, there's a relative.
+What do you call a cow with two legs? Lean beef.
+Moses had the first tablet that could connect to the cloud
+A doctor tells a woman she can no longer touch anything alcoholic. So she gets a divorce.
+What do you call a cow with two legs? Lean beef.
+How do construction workers party? They raise the roof.
+Alcohol is a perfect solvent: It dissolves marriages, families and careers.
+A lawyer-turned-cook is a sue chef
+Alcohol is a perfect solvent: It dissolves marriages, families and careers.
+What do you call a cow with two legs? Lean beef.
+Alcohol is a perfect solvent: It dissolves marriages, families and careers.
+Alcohol is a perfect solvent: It dissolves marriages, families and careers.
+Alcohol is a perfect solvent: It dissolves marriages, families and careers.
+A doctor tells a woman she can no longer touch anything alcoholic. So she gets a divorce.
+Where there's a will, there's a relative.
+What do you call bees that are fat? Obeese.
+I slept like a log during the night shift and I was axed when I awoke!
+What do you call a cow with two legs? Lean beef.
+What do you call bees that are fat? Obeese.
+How do construction workers party? They raise the roof.
+A doctor tells a woman she can no longer touch anything alcoholic. So she gets a divorce.
+A doctor tells a woman she can no longer touch anything alcoholic. So she gets a divorce.
+Aug 19, 2018 1:58:04 AM com.google.appengine.tools.development.AbstractModule shutdown
+INFO: Shutting down module instance default
+Shutting down.
+Aug 19, 2018 1:58:04 AM com.google.appengine.api.datastore.dev.LocalDatastoreService cleanupActiveServices
+INFO: scheduler shutting down.
