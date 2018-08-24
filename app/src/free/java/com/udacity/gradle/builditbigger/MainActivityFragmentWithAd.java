@@ -9,8 +9,14 @@ import com.google.android.gms.ads.AdRequest;
 import com.google.android.gms.ads.AdView;
 
 import butterknife.ButterKnife;
+import butterknife.Unbinder;
 
 public class MainActivityFragmentWithAd extends MainActivityFragment {
+
+    private Unbinder mUnBinder;
+
+    public MainActivityFragmentWithAd() {
+    }
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
@@ -25,5 +31,11 @@ public class MainActivityFragmentWithAd extends MainActivityFragment {
                 .build();
         mAdView.loadAd(adRequest);
         return root;
+    }
+
+    @Override
+    public void onDestroyView() {
+        super.onDestroyView();
+        mUnBinder.unbind();
     }
 }
