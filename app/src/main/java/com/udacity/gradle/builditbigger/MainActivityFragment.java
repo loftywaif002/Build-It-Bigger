@@ -9,9 +9,8 @@ import android.view.ViewGroup;
 import android.widget.Button;
 
 import com.cmpny.wca.androidjokeslibrary.JokesActivity;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.AdView;
 
+import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.Unbinder;
 
@@ -26,12 +25,14 @@ public class MainActivityFragment extends Fragment {
     public MainActivityFragment() {
     }
 
+    /*Butterknife View Injection Here */
+    @BindView( R.id.button_show_joke) Button button;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View root = super.onCreateView(inflater, container, savedInstanceState);
         mUnBinder = ButterKnife.bind(this, root);
-        Button button = ButterKnife.findById(root, R.id.button_show_joke);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
